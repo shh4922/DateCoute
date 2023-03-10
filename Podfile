@@ -7,7 +7,10 @@ target 'DateCoute' do
 
   # Pods for DateCoute
 
-pod 'Firebase/Core'
-pod 'Firebase/Auth'
+
+pod 'FirebaseAnalytics'
+
+pod 'FirebaseAuth'
+pod 'FirebaseFirestore'
 
 end

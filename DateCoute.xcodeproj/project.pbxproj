@@ -15,6 +15,7 @@
 		004FFDCC29B912B900E9F1F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004FFDCA29B912B900E9F1F3 /* LaunchScreen.storyboard */; };
 		004FFDD829B93E7100E9F1F3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004FFDD729B93E7100E9F1F3 /* LoginViewController.swift */; };
 		004FFDDA29B93F6700E9F1F3 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004FFDD929B93F6700E9F1F3 /* SignUpViewController.swift */; };
+		00EBFAD529BABCE300AC9F79 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00EBFAD429BABCE300AC9F79 /* GoogleService-Info.plist */; };
 		9391A0A98BE740EEB29AA5D9 /* Pods_DateCoute.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E9CCC04DA2CF780C7CB4624 /* Pods_DateCoute.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		004FFDCD29B912B900E9F1F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		004FFDD729B93E7100E9F1F3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		004FFDD929B93F6700E9F1F3 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		00EBFAD429BABCE300AC9F79 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		21A61D86A0E2930C39C456EE /* Pods-DateCoute.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DateCoute.debug.xcconfig"; path = "Target Support Files/Pods-DateCoute/Pods-DateCoute.debug.xcconfig"; sourceTree = "<group>"; };
 		7E9CCC04DA2CF780C7CB4624 /* Pods_DateCoute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DateCoute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		990EF1A168844D326989BEDE /* Pods-DateCoute.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DateCoute.release.xcconfig"; path = "Target Support Files/Pods-DateCoute/Pods-DateCoute.release.xcconfig"; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				004FFDCD29B912B900E9F1F3 /* Info.plist */,
 				004FFDD729B93E7100E9F1F3 /* LoginViewController.swift */,
 				004FFDD929B93F6700E9F1F3 /* SignUpViewController.swift */,
+				00EBFAD429BABCE300AC9F79 /* GoogleService-Info.plist */,
 			);
 			path = DateCoute;
 			sourceTree = "<group>";
@@ -94,7 +97,6 @@
 				21A61D86A0E2930C39C456EE /* Pods-DateCoute.debug.xcconfig */,
 				990EF1A168844D326989BEDE /* Pods-DateCoute.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -159,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				004FFDCC29B912B900E9F1F3 /* LaunchScreen.storyboard in Resources */,
+				00EBFAD529BABCE300AC9F79 /* GoogleService-Info.plist in Resources */,
 				004FFDC929B912B900E9F1F3 /* Assets.xcassets in Resources */,
 				004FFDC729B912B700E9F1F3 /* Main.storyboard in Resources */,
 			);
@@ -279,6 +282,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -293,7 +297,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -339,6 +343,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -347,7 +352,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -372,6 +377,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -400,6 +406,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
